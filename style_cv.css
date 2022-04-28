@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("img/11.-Fuchsia_1.jpg");
+}
+
+body, html {
+    height: auto;
+  }
+
+main {
+    width: 70%;
+    margin: auto;
+    height: auto;
+    margin-top: 65px;
+    display: flex;
+
+}
+
+#left_side {
+    height: auto;
+    width: 32%;
+    background-color: #EBEBEB;
+    border-top-left-radius: 35px;
+
+}
+
+#image {
+    width: 90%;
+    margin: auto;
+    height: 250px;
+    margin-top: 15px;
+
+}
+
+#img {
+    width: 300px;
+    height: 300px;
+    padding-left: 3px;
+}
+
+#personal_information {
+    height: 170px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-left: 35px;
+    color: #4B4C4A;
+}
+
+
+.p_info {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Inconsolata', monospace;
+}
+
+#personal_information p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: 'Inconsolata', monospace;
+}
+
+#contact_info {
+    margin-top: 80%;
+    height: auto;
+
+}
+
+.btn-success {
+    margin-top: 30px;
+    margin-left: 50%;
+}
+
+a {
+    text-decoration: none;
+    color:#4B4C4A;
+
+}
+
+#ct {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#contact {
+    font-size: 45px;
+    font-family: 'Inconsolata', monospace;
+    color: #4B4C4B;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+#wrapper {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    height: auto;
+    padding-left: 30px;
+}
+
+#svgs {
+    float:left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    
+
+}
+
+#svgs img{
+    margin-bottom: 20px;
+}
+
+.svg {
+    width: 30px;
+    height: 30px;
+}
+
+#contact_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+    color: #4B4C4B;
+}
+
+#contact_text a {
+    text-decoration: none;
+    color: #4B4C4B;
+    width: 70px;
+}
+
+/* right side */
+
+
+#right_side {
+    height: auto;
+    width: 66%;
+    background-color: #FAFAFA;
+    border-top-right-radius: 35px ;
+    
+}
+
+#name_surname_europass_logo {
+    height: 64px;
+}   
+
+#name {
+    height: auto;
+}
+
+#name p span{
+    width: auto;
+    height: auto;
+}
+
+#europass {
+    width: 200px;
+    margin-left: 480px;
+}
+
+#name_surname {
+    font-family: 'Anton', sans-serif;
+    font-size: 73px;
+    padding-left: 55px;
+    padding-right: 5px;
+    height: auto;
+    color: #333333;
+}
+
+#ocupation {
+    margin-top: auto;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    color: #333333;
+    padding-left: 55px;
+
+}
+
+#fgd {
+    margin-top: 10px;
+    height: 50px;
+}
+
+#brf_svg {
+    float: left;
+    border: 3px solid gray;
+    border-radius: 20px;
+    width: 55px;
+    height: 50px;
+    text-align: center;
+    margin-left: 50px;
+    background-color: #fff;
+}
+
+#briefcase {
+    width: 50px;
+    height: 50px;
+}
+
+#work_exp {
+
+    width: 100%;
+    margin-left: 77px;
+    height: 47px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-left: 50px;
+    background-color: #EBEBEB;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #333333;
+    padding-top: 7px;
+}
+
+
+#setSpace {
+    margin-top: 50px;
+    display: flex;
+    flex-direction : column;
+    justify-content : center;
+}
+
+
+.setWork {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    width: auto;
+    border-bottom: 2px solid gray;
+    font-size: 24px;
+    padding-right: 30px;
+    font-family: 'Inconsolata', monospace;
+    color: #333333;
+    height: auto;
+}
+
+.work_wrapper {
+    width: auto;
+}
+
+.setWork p {
+    padding-left: 110px;
+    padding-right: 50px;
+}
+
+.setSecond {
+    padding-top: 15px;
+}
+
+#work_experience {
+    overflow: auto;
+    overflow: hidden;
+}
+
+#general_w_info {
+    width: 60%;
+    margin-left: 240px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 23px;
+    color: #333333;
+
+}
+
+#inf {
+    font-size: 18px;
+}
+
+#sgd {
+    margin-top: 10px;
+    height: 50px;
+}
+
+#mortarboard_svg {
+    float: left;
+    border: 3px solid gray;
+    border-radius: 20px;
+    width: 60px;
+    height: 55px;
+    text-align: center;
+    margin-left: 50px;
+    background-color: #fff;
+}
+
+#mortarboar {
+    width: 50px;
+    height: 50px;
+}
+
+#ed_exp {
+    width: auto;
+    margin-left: 77px;
+    height: 48px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-left: 50px;
+    background-color: #EBEBEB;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #333333;
+    padding-top: 7px;
+    margin-top: 2px;
+}
+
+.educationSet {
+    border-bottom:2px solid gray;
+    margin-bottom: 50px;
+}
+
+.work_information {
+    width: auto;
+    border-bottom:2px solid gray;
+}
+
+
+#e_wrapper {
+    width: auto;
+    height: auto;
+    margin-left: 78px;
+    padding-top: 25px;
+    font-size: 24px;
+    font-family: 'Inconsolata', monospace;
+    color: #333333;
+}
+
+#e_wrapper p {
+    padding-bottom: 25px;
+}
+
+
+#s_wr{
+    margin-top: 20px;
+    height: 100px;
+}
+
+
+#student_info {
+    width: 60%;
+    margin-left: 265px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    color: #333333;
+}
+
+#tgd {
+    margin-top: 40px;
+    height: 50px;
+}
+
+.setIcon {
+    width: 100px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 45px;
+    margin-bottom: 40px;
+}
+
+.setIcon img{
+    width: 50px;
+    height: 50px;
+}
