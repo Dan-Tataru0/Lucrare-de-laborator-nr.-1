@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/wh_mountain.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#back_button {
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+table {
+    margin-left: 20px;
+    margin-top: -40px;
+    font-size: 18px;
+    font-family: 'Koulen', cursive;
+}
+
+
+td{
+    color: black;
+}
+
+#search {
+    font-size: 18px;
+    font-family: 'Koulen', cursive;
+    margin-left: 150px;
+}
+
+#btn-search {
+    width: 710px;
+}
+
+#search {
+    margin-bottom: 50px;
+}
+
+#show_error {
+    font-size: 40px;
+    width: 50%;
+    margin-bottom: -50px;
+    margin: 0 auto;
+    background-color: red;
+    color: white;
+
+    font-family: 'Koulen', cursive;
+    text-align: center;
+}

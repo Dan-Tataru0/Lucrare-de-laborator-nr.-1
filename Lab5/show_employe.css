@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+body {
+
+    background-image: url("images/pexels-veeterzy-39811.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#main {
+    margin: 0 auto;
+}
+
+#main {
+    margin-top: 100px;
+    width: 50%;
+}
+
+.row {
+    width: 900px;
+}
+
+#gen_info {
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    font-size: 40px;
+}
+
+.col-3 {
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    opacity: 0.7;
+    font-size: 20px;
+    font-family: 'Koulen', cursive;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.col-4 {
+    font-family: 'Koulen', cursive;
+    color: black;
+    font-size: 20px;
+}
+
+#redir {
+    margin: 0 auto;
+    width: 100px;
+}
+
+#link {
+    width: 40px;
+}
+.btn-dark {
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#rec {
+    text-decoration: none;
+    color: black;
+}
