@@ -25,7 +25,14 @@ if (isset($_GET['id'])) {
         $address = $object['address'];
         $profession = $object['profession'];
         $link = $object['link'];
-
+        $ed_title = $object['ed_title'];
+        $graduation_date = $object['graduation_date'];
+        $ed_type = $object['ed_type'];
+        $job_name = $object['job_name'];
+        $job_start_date = $object['job_start_date'];
+        $job_end_date = $object['job_end_date'];
+        $city = $object['city_name'];
+        $company = $object['company_name'];
     } else {
      $id = null;
     }
@@ -75,6 +82,55 @@ if (isset($_GET['id'])) {
 <div class="row">
     <div class="col-3">Link</div>
     <div class="col-4"><a href="<?php echo $link ?>" id="rec"><?php echo $link ?></a></div>
+</div>
+<div class="row">
+    <div class="col-3">Education Title</div>
+    <div class="col-4"><?php echo $ed_title ?></div>
+</div>
+<div class="row">
+    <div class="col-3">Graduation Date</div>
+    <div class="col-4"><?php echo $graduation_date ?></div>
+</div>
+<div class="row">
+    <div class="col-3">Education Type</div>
+    <div class="col-4"><?php echo $ed_type ?></div>
+</div>
+<div class="row">
+    <div class="col-3">Job Name</div>
+    <div class="col-4"><?php echo $job_name ?></div>
+</div>
+<div class="row">
+    <div class="col-3">Job Start Date</div>
+    <div class="col-4"><?php echo $job_start_date ?></div>
+</div>
+
+<?php 
+
+    if($job_end_date == "2014-02-09") {
+        echo "
+        <div class=\"row\">
+        <div class=\"col-3\">Job End Date</div>
+        <div class=\"col-4\">In prezent</div>
+        </div>
+        ";
+    } else {
+        echo "
+        <div class=\"row\">
+        <div class=\"col-3\">Job End Date</div>
+        <div class=\"col-4\">$job_end_date</div>
+        </div>
+        ";
+    }
+
+?>
+
+<div class="row">
+    <div class="col-3">City</div>
+    <div class="col-4"><?php echo $city ?></div>
+</div>
+<div class="row">
+    <div class="col-3">Company</div>
+    <div class="col-4"><?php echo $company ?></div>
 </div>
 </div>
 <div id="redir"><a href="index.php" id="link"><button type="button" class="btn btn-dark">Back</button></div></a>

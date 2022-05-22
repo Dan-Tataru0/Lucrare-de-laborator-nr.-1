@@ -30,9 +30,6 @@
             <th scope="col">Prenume</th>
             <th scope="col">Email</th>
             <th scope="col">Telefon</th>
-            <th scope="col">Adresa</th>
-            <th scope="col">Profesia</th>
-            <th scope="col">Link</th>
             <th scope="col">Action</th>
           </tr>
         </thead>
@@ -47,9 +44,6 @@
             <td>${employe['surname']}</td>
             <td>${employe['email']}</td>
             <td>${employe['phone']}</td>
-            <td>${employe['address']}</td>
-            <td>${employe['profession']}</td>
-            <td>${employe['link']}</td>
             <td>
             <a href=\"view_employe.php?id=${employe['id']}\" target=\"_self\"><i class=\"fa-solid fa-eye fa-2x link-dark cursor-pointer mn\"></i></a>
         </td>
